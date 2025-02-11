@@ -69,6 +69,38 @@ A sample project demonstrating Django DRF authentication using JWT and integrati
 
 ---
 
+🌍 Deploying to Choreo
+
+Choreo makes it easy to deploy your Django and React applications with minimal configuration. Follow these steps to deploy your project:
+
+🔹 Backend Deployment
+
+Push your code to a GitHub repository.
+
+Sign in to Choreo.
+
+Create a new project and select Deploy a Backend Service.
+
+Connect your GitHub repository and choose the Django backend.
+
+Configure the environment variables (database settings, secret keys, etc.).
+
+Deploy the backend and monitor logs for any issues.
+
+🔹 Frontend Deployment
+
+Build the React application:
+
+npm run build
+
+Deploy the frontend using Choreo's Web App Hosting.
+
+Link the frontend to the backend API to complete the deployment.
+
+Use a custom domain or Choreo's provided URL to access your app.
+
+---
+
 ## 🔄 API Authentication Flow
 1. 🔑 User logs in and receives an access & refresh token.
 2. 📥 The access token is stored in memory for requests; the refresh token is stored securely.
